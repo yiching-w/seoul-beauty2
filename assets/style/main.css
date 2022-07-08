@@ -228,12 +228,10 @@ a:focus {
         background: rgba(0, 0, 0, .1) !important;
         z-index: 9;
     }
-
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #1d2434 !important;
     }
-
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 14px;
@@ -247,11 +245,9 @@ a:focus {
         padding: 15px;
         background: #1d2434 !important;
     }
-
     .navbar a.nav-link {
         padding: 5px;
     }
-
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -299,7 +295,6 @@ a:focus {
     .hero .hero-text {
         padding-left: 15px;
     }
-
     .hero .hero-text .intro {
         font-size: 16px;
     }
@@ -310,7 +305,6 @@ a:focus {
         font-size: 30px;
         font-weight: 600;
     }
-
     .hero .hero-text p {
         font-size: 14px;
     }
@@ -321,7 +315,6 @@ a:focus {
         font-size: 25px;
         font-weight: 600;
     }
-
     .hero .hero-text p {
         font-size: 14px;
     }
@@ -381,7 +374,6 @@ a:focus {
     .page-header h2 {
         font-size: 35px;
     }
-
     .page-header a {
         font-size: 18px;
     }
@@ -1137,7 +1129,6 @@ a:focus {
     .contact .container-fluid {
         background: none;
     }
-
     .contact .contact-form {
         padding: 90px 0;
     }
@@ -1310,7 +1301,6 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
@@ -1433,7 +1423,6 @@ a:focus {
     .sectionTitle {
         font-size: 4em;
     }
-
     .sectionTitle::after {
         width: 120px;
     }
@@ -1443,14 +1432,12 @@ a:focus {
     .sectionTitle {
         font-size: 2.8em;
     }
-
     .sectionTitle::after {
         width: 0px;
         top: auto;
         bottom: 0;
         left: 0;
     }
-
     .banner-item .title {
         font-size: 1rem;
         padding: 2px 6px;
@@ -1601,11 +1588,9 @@ a:focus {
     .nav-pills {
         width: 100%;
     }
-
     .nav-link {
         padding: 2px;
     }
-
     .nav-pills .nav-link {
         font-size: 0.8rem;
     }
@@ -1802,7 +1787,6 @@ a:focus {
     .service-card {
         width: 250px;
     }
-
     .service-carousel.owl-carousel,
     .service-carousel .owl-stage-outer,
     .service-carousel .item {
@@ -1815,14 +1799,12 @@ a:focus {
     .service-card {
         width: 200px;
     }
-
     .service-carousel.owl-carousel,
     .service-carousel .owl-stage-outer,
     .service-carousel .item {
         width: 200px;
         height: 200px;
     }
-
     .service-carousel .owl-stage-outer a::after {
         top: 15px;
         right: 15px;
@@ -1835,7 +1817,6 @@ a:focus {
     .service-card {
         width: 210px;
     }
-
     .service-carousel.owl-carousel,
     .service-carousel .owl-stage-outer,
     .service-carousel .item {
@@ -1848,7 +1829,6 @@ a:focus {
     .service-card {
         width: 300px;
     }
-
     .service-carousel.owl-carousel,
     .service-carousel .owl-stage-outer,
     .service-carousel .item {
@@ -1950,6 +1930,7 @@ section.first h2 {
 .card-intro img {
     box-shadow: 2px 2px 5px #0006;
     object-fit: cover;
+    width: 100%;
 }
 
 .experience img {
@@ -2019,11 +2000,9 @@ section.first h2 {
     section.first h1 {
         font-size: 40px;
     }
-
     section.first h1 i {
         font-size: 20px;
     }
-
     .titleCircle {
         top: -65px;
         left: 55px;
@@ -2034,49 +2013,39 @@ section.first h2 {
     .advantages {
         flex-direction: column;
     }
-
     .advantage {
         margin: 0 0 12px;
     }
-
     .expLists {
         text-align: center;
         margin: 20px auto;
     }
-
 }
 
 @media (max-width: 578.98px) {
     section.first h1 {
         font-size: 35px;
     }
-
     section.first h1 i {
         font-size: 18px;
     }
-
     section.first h4 {
         margin: 5px 0;
     }
-
     section.first h2 {
         font-size: 30px;
     }
-
     section.first img.profile {
         width: 250px;
     }
-
     section.first h1.advantageTitle {
         font-size: 25px;
         text-shadow: none;
         margin-bottom: 0;
     }
-
     .card-intro {
         padding: 40px;
     }
-
     .titleCircle {
         width: 150px;
         height: 150px;
@@ -2116,7 +2085,6 @@ section.second {
         font-size: 2rem;
         text-shadow: none;
     }
-
     .international .title::before {
         width: 180px;
         height: 15px;
@@ -2149,7 +2117,6 @@ section.third .title.title2 {
     text-shadow: 3px 3px #52525257;
 }
 
-
 @media (max-width: 600px) {
     section.third .title {
         font-size: 2rem;
@@ -2157,7 +2124,9 @@ section.third .title.title2 {
     }
 }
 
+
 /* collection */
+
 .list-wrapper {
     overflow: hidden;
     display: flex;
@@ -2214,7 +2183,6 @@ section.third .title.title2 {
         width: 200px;
         height: 250px;
     }
-
     .list-item a::after {
         top: 15px;
         right: 15px;
@@ -2236,7 +2204,6 @@ section.third .title.title2 {
         height: 180px;
     }
 }
-
 
 .simple-pagination ul {
     margin: 20px 0;
