@@ -2051,6 +2051,10 @@ section.first h2 {
         width: 150px;
         height: 150px;
     }
+    .championImg::before {
+        top: 15px;
+        left: 15px;
+    }
 }
 
 section.second {
@@ -2090,7 +2094,7 @@ section.second {
     .international .title::before {
         width: 180px;
         height: 15px;
-        left: 130px;
+        left: 106px;
     }
 }
 
