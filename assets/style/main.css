@@ -2053,7 +2053,7 @@ section.first h2 {
     }
     .championImg::before {
         top: 15px;
-        left: 15px;
+        left: 12px;
     }
 }
 
