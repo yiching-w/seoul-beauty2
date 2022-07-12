@@ -2243,3 +2243,9 @@ section.third .title.title2 {
 .simple-pagination .next.current {
     display: none;
 }
+
+.comment img {
+    box-shadow: 1px 1px 4px #e6bfa2aa;
+    object-fit: cover;
+    width: 100%;
+}
